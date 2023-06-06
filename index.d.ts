@@ -67,6 +67,8 @@ declare namespace nerdamer {
 	 * @param expression The expression being converted.
 	 */
 	export function convertToLaTeX(expression: string): string
+	
+	export function solve(equation: string, variable: string): Symbol
 
 	/**
 	 * Attempts to import a LaTeX string.
